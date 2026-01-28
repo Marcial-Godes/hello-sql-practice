@@ -104,5 +104,7 @@ Este repo me sirve para reforzar SQL orientado a desarrollo backend, especialmen
 
 ## 🔗 Referencias
 -- Curso base: hello-sql (mouredev)
+
 -- Vídeo: https://www.youtube.com/watch?v=OuJerKzV5T0
+
 -- Repo original: https://github.com/mouredev/hello-sql
