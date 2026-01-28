@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Compatible-336791)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Marcial-Godes/hello-sql-practice)
 ![Last commit](https://img.shields.io/github/last-commit/Marcial-Godes/hello-sql-practice)
-![License](https://img.shields.io/badge/License-MIT-informational)
+[![License: MIT](https://img.shields.io/badge/License-MIT-informational.svg)](LICENSE)
 
 Repositorio de práctica personal para reforzar **SQL y bases de datos relacionales**.  
 He trabajado consultas reales y ejercicios organizados por temática: lectura de datos, CRUD, diseño de tablas, relaciones, joins y conceptos avanzados.
