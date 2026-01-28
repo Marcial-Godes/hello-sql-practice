@@ -1,0 +1,322 @@
+■ 0:00:00 | Introducción
+    https://www.youtube.com/watch?v=OuJerKzV5T0
+    https://mouredev.link/sql
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 0:03:53 | 1. Bases de datos SQL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=233s
+
+■ 0:16:50 | 2. Sistema de gestión de base de datos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=1010s
+
+■ 0:22:26 | 3. Fundamentos de SQL y bases de datos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=1346s
+    https://www.w3schools.com/sql/default.asp
+
+■ 0:45:52 | 4. Configuración e instalación
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=2752s
+    https://www.mysql.com/
+    https://dev.mysql.com/downloads/mysql/
+
+■ ­0:54:41 | 5. Primeros pasos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=3281s
+    https://dev.mysql.com/doc/refman/8.4/en/mysql.html
+    Conectarse a la BdD
+        mysql -u root -p
+    Listar las BdD
+        SHOW DATABASES;
+    Salir
+        EXIT;
+
+■ 0:59:14 | 6. Conexión y cliente SQL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=3554s
+    DbVisualizer
+        https://www.dbvis.com/download/?_gl=1*1gd0irc*_up*MQ..*_ga*MTEwMDAwMjkzOC4xNzY4ODcxOTAx*_ga_9P463C7BC6*czE3Njg4NzE5MDEkbzEkZzAkdDE3Njg4NzE5MDEkajYwJGwwJGgxNzU5Mzc4ODM0*_ga_PTZV59MQGC*czE3Njg4NzE5MDEkbzEkZzAkdDE3Njg4NzE5MDEkajYwJGwwJGgw
+    phpMyAdmin
+        https://www.phpmyadmin.net/
+    dbForge
+        https://www.devart.com/
+    SQLPro Studio
+        https://www.sqlprostudio.com/
+    TablePlus
+        https://tableplus.com/download/
+    MySQL Workbench
+        https://dev.mysql.com/downloads/workbench/
+
+■ 1:13:00 | 7. Inicialización de datos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=4380s
+
+■ 1:33:38 | 8. Consulta de datos: SELECT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=5618s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 1:41:13 | 9. Modificadores: Parte 1
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=6073s
+
+■ 1:41:28 | - 9.1 DISTINCT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=6088s
+
+■ 1:46:23 | - 9.2 WHERE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=6383s
+
+■ 1:49:51 | - 9.3 ORDER BY
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=6591s
+
+■ 1:54:54 | - 9.4 LIKE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=6894s
+
+■ 1:59:53 | - 9.5 AND, OR, NOT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7193s
+
+■ 2:03:14 | - 9.6 LIMIT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7394s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 2:05:02 | 10. Modificadores: Parte 2
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7502s
+
+
+■ 2:05:11 | - 10.1 COMENTARIOS
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7511s
+
+■ 2:06:54 | - 10.2 NULL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7614s
+
+■ 2:10:33 | - 10.3 MIN, MAX
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=7833s
+
+■ 2:14:02 | - 10.4 COUNT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8042s
+
+■ 2:15:27 | - 10.5 SUM
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8127s
+
+■ 2:18:12 | - 10.6 AVG
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8292s
+
+■ 2:18:54 | - 10.7 IN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8334s
+
+■ 2:22:39 | - 10.8 BETWEEN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8559s
+
+■ 2:24:26 | - 10.9 ALIAS
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8666s
+
+■ 2:27:05 | - 10.10 CONCAT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8825s
+
+■ 2:29:20 | - 10.11 GROUP BY
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=8960s
+
+■ 2:34:23 | - 10.12 HAVING
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=9263s
+
+■ 2:38:05 | - 10.13 CASE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=9485s
+
+■ 2:47:02 | - 10.14 IFNULL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10022s
+
+■ 2:49:50 | - 10.15 Otros modificadores
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10190s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 2:51:28 | 11. Escritura de datos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10288s
+
+■ 2:52:49 | - 11.1 INSERT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10369s
+
+■ 2:57:00 | - 11.2 UPDATE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10620s
+
+■ 3:01:59 | - 11.3 DELETE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=10919s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 3:03:40 | 12. Administración de la base de datos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11020s
+
+■ 3:04:23 | - 12.1 CREATE DATABASE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11063s
+
+■ 3:06:19 | - 12.2 DROP DATABASE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11179s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 3:07:08 | 13. Administración de tablas
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12780s
+
+
+■ 3:08:11 | - 13.1 CREATE TABLE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11291s
+
+
+■ 3:13:38 | - 13.2 NOT NULL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11618s
+
+■ 3:16:26 | - 13.3 UNIQUE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11786s
+
+■ 3:18:30 | - 13.4 PRIMARY KEY
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=11910s
+
+■ 3:22:00 | - 13.5 CHECK
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12120s
+
+■ 3:24:02 | - 13.6 DEFAULT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12242s
+
+■ 3:26:01 | - 13.7 AUTO INCREMENT
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12361s
+
+■ 3:26:51 | - 13.8 DROP TABLE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12411s
+
+■ 3:27:40 | - 13.9 ALTER TABLE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12460s
+
+■ 3:29:37 | - 13.10 ADD
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12577s
+
+■ 3:30:23 | - 13.11 RENAME COLUMN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12623s
+
+■ 3:31:14 | - 13.12 MODIFY COLUMN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12674s
+
+■ 3:31:51 | - 13.13 DROP COLUMN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=12711s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 3:33:00 | 14. Relaciones entre tablas
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13427s
+
+■ 3:34:11 | - 14.1 RELACIÓN 1:1
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13489s
+
+■ 3:38:36 | - 14.2 RELACIÓN 1:N
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13116s
+
+■ 3:40:07 | - 14.3 RELACIÓN N:M
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=14313s
+
+■ 3:42:22 | - 14.4 AUTOREFERENCIA
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13342s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 3:43:47 | 15. Creación de tablas relacionadas
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13427s
+
+■ 3:44:49 | - 15.1 TABLAS 1:1
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=13489s
+
+■ 3:48:51 | - 15.2 TABLAS 1:N
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=15202s
+
+■ 3:58:33 | - 15.3 TABLAS N:M
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=15473s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 4:03:54 | 16. Almacenamiento de datos relacionados
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=14634s
+
+■ 4:09:53 | - 16.1 DATOS 1:1
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=14993s
+
+■ 4:13:22 | - 16.2 DATOS 1:N
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=15202s
+
+■ 4:17:53 | - 16.3 DATOS N:M
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=15473s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 4:26:52 | 17. Consulta de datos relacionados
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=16012s
+
+■ 4:28:20 | - 17.1 INNER JOIN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=16100s
+
+■ 4:44:05 | - 17.2 LEFT JOIN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=17045s
+
+■ 4:49:58 | - 17.3 RIGHT JOIN
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=17398s
+
+■ 4:52:15 | - 17.4 UNION
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=17535s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 5:03:16 | 18. Conceptos avanzados
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=18196s
+
+■ 5:03:38 | - 18.1 INDEX
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=18218s
+
+■ 5:16:01 | - 18.2 TRIGGER
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=18961s
+
+■ 5:27:43 | - 18.3 VIEW
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=19663s
+
+■ 5:33:52 | - 18.4 STORED PROCEDURE
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=20032s
+
+■ 5:41:41 | - 18.5 TRANSACCIONES
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=20501s
+
+■ 5:45:00 | - 18.6 CONCURRENCIA
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=20700s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 5:47:27 | 19. Conexión desde código
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=20847s
+
+■ 5:47:55 | - 19.1 CONECTORES
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=20875s
+
+■ 5:52:29 | - 19.2 SQL INJECTION
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=21149s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+■ 6:00:40 | 20. Otros clientes SQL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=21640s
+
+    https://www.dbvis.com/
+
+■ 6:07:49 | 21. PostgresSQL
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=22069s
+
+    https://www.postgresql.org
+    https://www.postgresqltutorial.com
+    https://mouredev.link/raiola
+    https://www.planetscale.com
+    https://www.clever-cloud.com
+
+■ 6:26:54 | 22. Despliegue en la nube
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=23214s
+
+    https://www.vercel.com
+    https://www.supabase.com
+
+■ 6:44:43 | 23. Próximos pasos
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=24283s
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+6:51:18 | Conclusiones
+    https://www.youtube.com/watch?v=OuJerKzV5T0&t=24678s
