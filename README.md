@@ -69,6 +69,7 @@ hello-sql-practice/
 ├── 06_Advanced/
 ├── extras/
 └── resources.md
+```
 
 ---
 
