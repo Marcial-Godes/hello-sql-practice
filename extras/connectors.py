@@ -15,7 +15,7 @@ def print_user(user):
         "port": "3306",            # Puerto por defecto de MySQL
         "database": "hello_mysql", # Base de datos a la que se conecta
         "user": "root",            # Usuario de MySQL
-        "password": "***REMOVED***"     # Contraseña del usuario
+        "password": ""     # Contraseña del usuario
     }
 
 # def print_user(user):
@@ -26,7 +26,7 @@ def print_user(user):
 #        "port": "3306",            # Puerto por defecto de MySQL
 #        "database": "b8196qgy9ppmtwznu4kt", # Base de datos a la que se conecta
 #        "user": "ushmj9ycaxa1jtlg",            # Usuario de MySQL
-#        "password": "***REMOVED***"     # Contraseña del usuario
+#        "password": ""     # Contraseña del usuario
 #    }
 
 
