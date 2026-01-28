@@ -1,9 +1,11 @@
 # hello-sql-practice 🧠🗃️
 
+```md
 ![SQL](https://img.shields.io/badge/SQL-Practice-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-Workbench-orange)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Compatible-336791)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+![GitHub repo size](https://img.shields.io/github/repo-size/Marcial-Godes/hello-sql-practice)
+![Last commit](https://img.shields.io/github/last-commit/Marcial-Godes/hello-sql-practice)
 ![License](https://img.shields.io/badge/License-MIT-informational)
 
 Repositorio de práctica personal para reforzar **SQL y bases de datos relacionales**.  
@@ -67,26 +69,22 @@ hello-sql-practice/
 ├── 05_Join/
 ├── 06_Advanced/
 └── resources.md
+```
 
 ---
 
-▶️ Cómo usarlo
-✅ Requisitos
+## ▶️ Cómo usarlo
 
-MySQL Server
+### ✅ Requisitos
+- MySQL Server
+- MySQL Workbench  
+*(Compatible con PostgreSQL con pequeñas diferencias de sintaxis.)*
 
-MySQL Workbench
-(También es compatible con PostgreSQL adaptando pequeñas diferencias de sintaxis.)
-
-Ejecutar scripts
-
-Abre MySQL Workbench
-
-Crea una base de datos (opcional)
-
-Abre un .sql
-
-Ejecuta las consultas paso a paso
+### ▶️ Ejecutar scripts
+1. Abre MySQL Workbench
+2. Crea una base de datos (opcional)
+3. Abre un archivo `.sql`
+4. Ejecuta las consultas paso a paso
 
 ---
 
@@ -110,3 +108,8 @@ Vídeo: https://www.youtube.com/watch?v=OuJerKzV5T0
 
 Repo original: https://github.com/mouredev/hello-sql
 
+---
+
+## 📝 Notas
+- Los scripts están organizados por tema para consulta rápida.
+- Algunos ejemplos están enfocados a MySQL y pueden requerir pequeños cambios para PostgreSQL.
