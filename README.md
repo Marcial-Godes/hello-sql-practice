@@ -67,3 +67,46 @@ hello-sql-practice/
 ├── 05_Join/
 ├── 06_Advanced/
 └── resources.md
+
+---
+
+▶️ Cómo usarlo
+✅ Requisitos
+
+MySQL Server
+
+MySQL Workbench
+(También es compatible con PostgreSQL adaptando pequeñas diferencias de sintaxis.)
+
+Ejecutar scripts
+
+Abre MySQL Workbench
+
+Crea una base de datos (opcional)
+
+Abre un .sql
+
+Ejecuta las consultas paso a paso
+
+---
+
+🎯 Aplicación práctica (Backend)
+
+Este repo me sirve para reforzar SQL orientado a desarrollo backend, especialmente para:
+
+Diseñar esquemas con integridad (constraints y relaciones)
+
+Consultas eficientes con JOINs y agregaciones
+
+Preparar integración con APIs (Python / FastAPI)
+
+---
+
+🔗 Referencias
+
+Curso base: hello-sql (mouredev)
+
+Vídeo: https://www.youtube.com/watch?v=OuJerKzV5T0
+
+Repo original: https://github.com/mouredev/hello-sql
+
