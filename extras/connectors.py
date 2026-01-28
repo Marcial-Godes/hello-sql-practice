@@ -1,79 +1,72 @@
 ##  5:47:55 | - 19.1 CONECTORES
 #       https://www.youtube.com/watch?v=OuJerKzV5T0&t=20875s
 
-
 # Importa el módulo mysql.connector
 # Este módulo permite a Python conectarse a una base de datos MySQL
+import os
 import mysql.connector
+from dotenv import load_dotenv
+
+
+# Carga variables de entorno desde un archivo .env (si existe)
+load_dotenv()
+
+
+def get_db_config():
+    """
+    Lee la configuración desde variables de entorno.
+    Esto evita tener contraseñas dentro del código (nunca deben ir en GitHub).
+    """
+
+    config = {
+        "host": os.getenv("DB_HOST", "127.0.0.1"),
+        "port": int(os.getenv("DB_PORT", "3306")),
+        "database": os.getenv("DB_NAME", "hello_mysql"),
+        "user": os.getenv("DB_USER", "root"),
+        "password": os.getenv("DB_PASSWORD"),
+    }
+
+    # Seguridad mínima: no permitas conectar si falta password
+    if not config["password"]:
+        raise ValueError(
+            "Falta DB_PASSWORD. Crea un archivo .env con DB_PASSWORD=tu_password"
+        )
+
+    return config
 
 
 def print_user(user):
-    # Diccionario de configuración de la conexión
-    # Contiene los parámetros necesarios para conectarse al servidor MySQL
-    config = {
-        "host": "127.0.0.1",       # Dirección del servidor MySQL (localhost)
-        "port": "3306",            # Puerto por defecto de MySQL
-        "database": "hello_mysql", # Base de datos a la que se conecta
-        "user": "root",            # Usuario de MySQL
-        "password": ""     # Contraseña del usuario
-    }
-
-# def print_user(user):
-    # Diccionario de configuración de la conexión
-    # Contiene los parámetros necesarios para conectarse al servidor MySQL
-#    config = {
-#        "host": "b8196qgy9ppmtwznu4kt-mysql.services.clever-cloud.com",       # Dirección del servidor MySQL (localhost)
-#        "port": "3306",            # Puerto por defecto de MySQL
-#        "database": "b8196qgy9ppmtwznu4kt", # Base de datos a la que se conecta
-#        "user": "ushmj9ycaxa1jtlg",            # Usuario de MySQL
-#        "password": ""     # Contraseña del usuario
-#    }
-
+    # Obtiene configuración segura (desde .env)
+    config = get_db_config()
 
     # Establece la conexión con la base de datos usando los parámetros de config
     # **config expande el diccionario en argumentos con nombre
     connection = mysql.connector.connect(**config)
 
-
     # Crea un cursor para ejecutar consultas SQL
     cursor = connection.cursor()
 
-
     # Construye la consulta SQL usando un marcador de posición (%s)
-    # Esta forma es SEGURA frente a inyección SQL,
-    # ya que el valor se envía como dato, no como código SQL
+    # Esta forma es SEGURA frente a inyección SQL
     query = "SELECT * FROM users WHERE name = %s;"
 
-
     # Ejecuta la consulta SQL pasando los valores por separado
-    # El conector se encarga de escapar y tratar correctamente el parámetro
     cursor.execute(query, (user,))
 
-
     # Recupera todos los registros devueltos por la consulta
-    # El resultado es una lista de tuplas
     result = cursor.fetchall()
-
 
     # Recorre cada fila obtenida
     for row in result:
-        # Imprime la fila completa (una tupla)
         print(row)
 
-
-    # Cierra el cursor
-    # Libera los recursos asociados a la ejecución de consultas
+    # Cierra recursos SIEMPRE
     cursor.close()
-
-
-    # Cierra la conexión con la base de datos
-    # Finaliza la sesión con MySQL y libera recursos
     connection.close()
 
 
 print_user("Marcial")
 # print_user("'; UPDATE users SET age = '15' WHERE user_id = 1; --")
-
 
 """
     Apunte de viejo oficio
