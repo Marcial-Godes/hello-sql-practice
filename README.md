@@ -106,9 +106,3 @@ Este repo me sirve para reforzar SQL orientado a desarrollo backend, especialmen
 -- Curso base: hello-sql (mouredev)
 -- Vídeo: https://www.youtube.com/watch?v=OuJerKzV5T0
 -- Repo original: https://github.com/mouredev/hello-sql
-
----
-
-## 📝 Notas
-- Los scripts están organizados por tema para consulta rápida.
-- Algunos ejemplos están enfocados a MySQL y pueden requerir pequeños cambios para PostgreSQL.
