@@ -108,3 +108,22 @@ Este repo me sirve para reforzar SQL orientado a desarrollo backend, especialmen
 -- Vídeo: https://www.youtube.com/watch?v=OuJerKzV5T0
 
 -- Repo original: https://github.com/mouredev/hello-sql
+
+---
+
+## ⚙️ Variables de entorno (.env)
+
+Este repositorio incluye un ejemplo de conexión desde Python en:
+
+📌 `extras/07_CONNECTORS.py`
+
+Por seguridad, las credenciales de conexión **NO se suben al repositorio**.
+
+### ✅ 1) Crear tu archivo `.env` (solo local)
+
+Copia el archivo de ejemplo:
+
+**Linux / macOS**
+```bash
+cp .env.example .env
+```
